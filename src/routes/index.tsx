@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { PortfolioMotion } from "@/components/portfolio-motion";
 import { projects } from "@/lib/portfolio";
-import portrait from "@/assets/shahin-portrait-hd.webp.asset.json";
+import portrait from "@/assets/shahin-portrait-hd.webp";
 
 const services = [
   { icon: Code2, name: "Doctor & healthcare websites" },
@@ -63,7 +63,7 @@ function Index() {
         <section id="about" className="about-section"><div className="page-width">
           <ScrollReveal><div className="section-label"><span className="eyebrow"><span className="meta-line" /> THE PERSON BEHIND THE WORK</span><span className="section-index">01 / PROFILE</span></div><div className="about-title"><h2>Meet <span>Shahin.</span></h2><Asterisk className="about-asterisk" strokeWidth={1} aria-hidden="true" /></div></ScrollReveal>
           <div className="about-grid">
-            <ScrollReveal className="portrait-column"><div className="portrait-frame"><span className="portrait-corner">THE HUMAN SIDE OF DIGITAL.</span><img src={portrait.url} alt="Shahin, freelance web developer from Bangladesh" width="1024" height="1024" loading="lazy" /><span className="portrait-name">Shahin<span>.</span><ArrowUpRight /></span><span className="portrait-role">DEVELOPER / DESIGNER / THOUGHTFUL PARTNER</span></div><div className="portrait-caption"><span><MapPin size={14} /> Based in Bangladesh</span><span>Independent developer</span></div><div className="portrait-signoff"><Heart size={16} /><span>A little craft.<br /><strong>A lot of care.</strong></span><Asterisk size={30} aria-hidden="true" /></div></ScrollReveal>
+            <ScrollReveal className="portrait-column"><div className="portrait-frame"><span className="portrait-corner">THE HUMAN SIDE OF DIGITAL.</span><img src={portrait} alt="Shahin, freelance web developer from Bangladesh" width="1024" height="1024" loading="lazy" /><span className="portrait-name">Shahin<span>.</span><ArrowUpRight /></span><span className="portrait-role">DEVELOPER / DESIGNER / THOUGHTFUL PARTNER</span></div><div className="portrait-caption"><span><MapPin size={14} /> Based in Bangladesh</span><span>Independent developer</span></div><div className="portrait-signoff"><Heart size={16} /><span>A little craft.<br /><strong>A lot of care.</strong></span><Asterisk size={30} aria-hidden="true" /></div></ScrollReveal>
             <ScrollReveal className="about-copy"><div className="eyebrow about-hello">ABOUT ME</div><h3>A developer.<br />A thoughtful partner<span>.</span></h3><p className="about-lead">A freelance web developer helping doctors and healthcare professionals turn their expertise into a <strong>trusted digital presence.</strong></p><p>I build modern, professional websites that feel as thoughtful as the care you provide. Clean design, intuitive experiences, and a clear purpose—so patients can find you, trust you, and take the next step.</p><dl className="profile-facts"><div><dt>BASED IN</dt><dd><MapPin size={16} /> Bangladesh</dd></div><div><dt>WHAT I DO</dt><dd>Web design & development</dd></div><div><dt>MY FOCUS</dt><dd>Doctors & healthcare</dd></div><div><dt>WORK STYLE</dt><dd>Independent / freelance</dd></div></dl><Button asChild variant="portfolio"><a href="#services">Explore my expertise <ArrowDown size={16} /></a></Button></ScrollReveal>
           </div>
         </div></section>
