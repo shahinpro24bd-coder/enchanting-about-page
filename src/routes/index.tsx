@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { PortfolioMotion } from "@/components/portfolio-motion";
 import { projects } from "@/lib/portfolio";
-import portrait from "@/assets/shahin-portrait-hd.webp.asset.json";
+import portrait from "@/assets/shahin-portrait-hd.webp";
 
 const services = [
   { icon: Code2, name: "Doctor & healthcare websites" },

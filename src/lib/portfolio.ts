@@ -1,8 +1,8 @@
-import arman from "@/assets/project-arman.webp.asset.json";
-import selim from "@/assets/project-selim.webp.asset.json";
-import humayra from "@/assets/project-humayra-private.webp.asset.json";
-import nazmul from "@/assets/project-nazmul-private.webp.asset.json";
-import fatema from "@/assets/project-fatema.webp.asset.json";
+import arman from "@/assets/project-arman.webp";
+import selim from "@/assets/project-selim.webp";
+import humayra from "@/assets/project-humayra-private.webp";
+import nazmul from "@/assets/project-nazmul-private.webp";
+import fatema from "@/assets/project-fatema.webp";
 
 export const projects = [
   { name: "Dr. Arman Molazadeh", specialty: "Ophthalmology", image: arman.url, url: "https://www.drarmanmolazadeh.com/", type: "Doctor website", tone: "sage" },
