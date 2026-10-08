@@ -8,9 +8,10 @@ export function ScrollReveal({ children, className = "" }: { children: ReactNode
     const observer = new IntersectionObserver(([entry]) => {
       if (entry?.isIntersecting) {
         element.classList.add("is-visible");
-        observer.disconnect();
+      } else {
+        element.classList.remove("is-visible");
       }
-    }, { threshold: 0.08 });
+    }, { threshold: 0.06 });
     element.classList.add("will-reveal");
     observer.observe(element);
     return () => observer.disconnect();
