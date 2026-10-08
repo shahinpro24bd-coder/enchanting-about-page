@@ -10,6 +10,6 @@
 <!-- LOVABLE:END -->
 
 - Keep the portfolio at the TanStack index route, with browser-safe project data in a dedicated module, to preserve native routing and keep the page focused.
-- Store imported portfolio media as optimized WebP asset pointers; this reduces transfer size and keeps binary assets out of the source archive.
 - Use CSS animations and an IntersectionObserver reveal component with reduced-motion support instead of an animation dependency to keep the portfolio lightweight and accessible.
 - Isolate browser-only scroll progress and pointer tilt in the portfolio motion wrapper, with effect cleanup and reduced-motion guards, to keep SSR safe and motion accessible.
+- Ship portfolio images as bundled files under src/assets, because CDN pointer URLs only resolve on Lovable hosting.
