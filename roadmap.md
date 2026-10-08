@@ -9,3 +9,8 @@
 - [x] Elevate the composition and add richer interactive and scroll animation.
 - [x] Preserve the palette and keep About structured and readable.
 - [x] Verify the finished page, project links and reduced-motion behavior.
+
+# Work-first layout
+- [ ] Put the portfolio first and move all personal presentation below it.
+- [ ] Separate profile, expertise and working approach into clear sections.
+- [ ] Verify section order, navigation and desktop/mobile presentation.
