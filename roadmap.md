@@ -11,6 +11,6 @@
 - [x] Verify the finished page, project links and reduced-motion behavior.
 
 # Work-first layout
-- [ ] Put the portfolio first and move all personal presentation below it.
-- [ ] Separate profile, expertise and working approach into clear sections.
-- [ ] Verify section order, navigation and desktop/mobile presentation.
+- [x] Put the portfolio first and move all personal presentation below it.
+- [x] Separate profile, expertise and working approach into clear sections.
+- [x] Verify section order, navigation and desktop/mobile presentation.
